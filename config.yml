@@ -1,0 +1,7 @@
+tunnel: n8n-tunnel
+credentials-file: C:\Users\USER\.cloudflared\de006833-8c51-4ad9-ae77-7042eac34ceb.json
+
+ingress:
+  - hostname: n8n.chadeveloper.com
+    service: http://localhost:5678
+  - service: http_status:404
